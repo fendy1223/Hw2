@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    line-height: 1.5
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 128px;
+}
+
+.h2 {
+    font-size: 64px;
+}
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.header {
+    background: #000;
+    color: #D1D1D1;
+    padding: 52px 0;
+}
+
+.banner {
+    background: #000;
+    color: white;
+}
+
+.banner-title {
+    display: block;
+    text-align: right;
+}
+
+.intro {
+    background-image: url("../image/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-title {
+    width: 526px;
+    color: white;
+}
+
+.card {
+    width: 636px;
+    margin: 206px 0;
+}
+
+.box {
+    box-shadow: 4px 4px 4px 0px #00000014;
+}
+
+.about-me {
+    width: 526px;
+    margin: 160px 0;
+}
+
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    color: white;
+}
+
+.project-title {
+    width: 746px;
+    margin-left: auto;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.btn-white {
+    background: white;
+    color: #000;
+}
+
+.btn-black {
+    background: black;
+    color: #fff;
+}
+
+.footer {
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+.d-f {
+    display: flex;
+}
+
+.fxw {
+    flex-wrap: wrap;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.jc-fe {
+    justify-content: flex-end;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-40 {
+    padding: 40px 0;
+}
+
+.p-96 {
+    padding: 96px 0;
+}
+
+.p-127 {
+    padding: 127px 0;
+}
+
+.p-160 {
+    padding: 160px 0;
+}
+
+.pt-6 {
+    padding-top: 72px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-76 {
+    margin-bottom: 76px;
+}
+
+.w-160 {
+    width: 160px;
+}
+
+.w-306 {
+    width: 306px;
+}
+
+.w-541 {
+    width: 541px;
+}
+
+.green {
+    color: #00FFA3;
+}
